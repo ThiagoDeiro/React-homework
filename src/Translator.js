@@ -20,7 +20,7 @@ export default class Translator extends React.Component{
     render(){
         return(
             <div>
-                <label>
+                <label className='label'>
                     Enter the number to get the fact from :
                     <input type='text' onChange={this.handleFactNumberChanged} />
                 </label>
