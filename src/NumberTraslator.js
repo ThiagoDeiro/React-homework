@@ -25,7 +25,7 @@ export default class NumberTraslator extends React.Component{
                     <input className="input-Element" type='text' onChange={this.handleFactNumberChanged} />
                 </label>
                  <p className='text'>The fact for the number {this.state.factNumber} is : <b>{this.state.factText}</b></p>
-                <button onClick={this.handleGetFact}>Get Fact !</button>
+                <button className='get-fact-button' onClick={this.handleGetFact}>Get Fact !</button>
             </div>
         )
     }
