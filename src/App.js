@@ -25,9 +25,11 @@ const Trivia = () => (
   </div>
 );
 
+
+
 const Math = () => (
   <div>
-      <h1>Math</h1>
+      <h1 className='math-page'>Math</h1>
       <nav>
           <Link to="/">Home</Link> |{" "}
           <Link to="/trivia/:number">Trivia</Link>|{" "}
@@ -36,6 +38,8 @@ const Math = () => (
       <NumberTraslator />
   </div>
 );
+
+
 function App() {
   return (
     <div className="App">
