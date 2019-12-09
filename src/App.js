@@ -5,8 +5,8 @@ import Traslator from './Translator';
 import NumberTraslator from './NumberTraslator'
 const Home = () => (
   <div>
-      <h1>Home</h1>
-      <nav>
+      <h1 className='title'>Home</h1>
+      <nav className='navBar'>
           <Link to="/">Home</Link> |{" "}
           <Link to="/trivia/:number">Trivia</Link>|{" "}
           <Link to="/math/:number">Math</Link>
