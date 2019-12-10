@@ -15,7 +15,7 @@ const Home = () => (
 );
 const Trivia = () => (
   <div>
-      <h1>Trivia</h1>
+      <h1 className= 'title'>Trivia</h1>
       <nav>
           <Link to="/">Home</Link> |{" "}
           <Link to="/trivia/:number">Trivia</Link>|{" "}
