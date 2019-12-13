@@ -22,7 +22,7 @@ export default class Translator extends React.Component{
             <div>
                 <label className='label'>
                     Enter the number to get the fact from :
-                    <input type='text' onChange={this.handleFactNumberChanged} />
+                    <input className="input" type='text' onChange={this.handleFactNumberChanged} />
                 </label>
                  <p>The fact for the number {this.state.factNumber} is : <b>{this.state.factText}</b></p>
                 <button onClick={this.handleGetFact}>Get Fact !</button>
