@@ -30,7 +30,7 @@ const Trivia = () => (
 const Math = () => (
   <div>
       <h1 className='math-page'>Math</h1>
-      <nav>
+      <nav className='NavBar'>
           <Link to="/">Home</Link> |{" "}
           <Link to="/trivia/:number">Trivia</Link>|{" "}
           <Link to="/math/:number">Math</Link>
